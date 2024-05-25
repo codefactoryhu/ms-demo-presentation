@@ -6,7 +6,7 @@ terragrunt run-all plan --terragrunt-exclude-dir ./live/dev/eks-alb \
                                                 --terragrunt-exclude-dir ./live/dev/eks-autoscaler
 terragrunt run-all apply
 
-aws eks update-kubeconfig --name dev-dbx-demo --region eu-central-1
+aws eks update-kubeconfig --name dev-ingram-demo --region eu-central-1
 ```
 
 #### GitHub Container Registry Preparation
